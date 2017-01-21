@@ -2,16 +2,23 @@ html, body {
   max-height: 100%;
   max-width:  100%;
   overflow-x: hidden; 
+  overflow-y: hidden; 
   margin: 0;
   padding: 0;
+}
+
+body {
+	background-image: url(birthday.jpg);
+	background-size: 130%;
 }
 
 
 .happy {
 	font-family: 'Architects Daughter', cursive;
-	font-size: 3em;
+	margin: 1px;
+	font-size: 2.5em;
 	position: relative;
-	left: 300px;
+	left: 350px;
 }
 
 iframe {
